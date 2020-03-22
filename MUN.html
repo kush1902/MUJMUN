@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  
+<head>
+        
+        <title>MUJMUN</title>
+        <link rel="stylesheet" type="text/css" href="committees.css">
+        <link rel="stylesheet" type="text/css" href="MUN.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+    <body>
+        <div class="main_img new_top img-shadow">
+            <div class="go">
+                <img src="assets/images/team-6.jpg" alt="">
+            </div>
+        </div>
+        
+        <main class="load-main">
+            <div class="main-content">
+
+
+                <!--Start Home Section-->
+                <section class="home " id="home">
+                    <div class="full_height bg_image" style="background-image: url();" data-stellar-background-ratio="0.7">
+                        <div id="particles-js"></div>
+                        
+                        <!-- nav -->
+                        <nav class="navbar navbar-default navbar-fixed-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+
+                                    <!-- LOGO to be inserted here later -->
+                                    <a class="navbar-brand" href="#"><span>MUJMUN8.0</span></a>
+
+                                </div>
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active">
+                                            <a href="#home" class="smooth_scroll">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="committees.html" class="smooth_scroll">Commitees</a>
+                                        </li>
+                                        <li>
+                                            <a href="#message" class="smooth_scroll">Message</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact us" class="smooth_scroll">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!--.container-->
+                       </nav>
+                       
+                        <div class="overlay">
+                            <div class="wrapper">
+                                <div class="content opacity-zero">
+                                    <h1><b>WELCOME TO MUJMUN8.0</b></h1>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-twitter"></i>
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+                 
+        
+        <script src="assets/js/jquery.min.js"></script>
+   
+         
+        <script src="assets/js/particles.min.js"></script>
+ 
+        <script src="assets/js/app-polygon.js"></script>
+  
+ 
+ <!--do not touch this json script --->
+
+
+ 
+  <script>
+    
+
+$(function () {
+    
+    "use strict";
+  
+
+    var $grid = $('.grid'),
+        i;
+
+    $(window).on('load', function () {
+
+        /*--------------------------------
+            01. Isotope Plugin
+        ----------------------------------*/
+       
+        /*--------------------------------
+            02. Preloader 
+        ----------------------------------*/
+        $(".preloader").css('display','none');
+
+        setTimeout(function(){
+
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000, function () {
+                
+                $('.navbar-nav li:first-of-type').addClass('active').siblings().removeClass('active');
+                $('.page-loader').css('animation-name','');
+                $('.home .content').removeClass('opacity-zero');
+                $('.main_img').removeClass('img-shadow');
+                $('main').removeClass('load-main');
+
+            });
+
+        },1000);
+
+        
+    }); 
+    
+
+
+});
+         
+    </script>
+
+    </body>
+ 
+</html>

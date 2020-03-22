@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="text" id="intro">
+		<div id="a">contact us </div> for any event related queries or updates</div>
+	<div id=Contact >
+	<div id="e-mail">Mail ID</div>
+	<div id="num">Ph No</div>
+	<div id="add">Manipal University Jaipur, Dehmi Kalan, Off Jaipur-Ajmer Expressway, Jaipur, Rajasthan 303007.</div>
+	<div id="links">
+		<ul>
+			<li><i class="fa fa-facebook-square fa-3x"aria-hidden="true"></i></li>
+			<li><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
+			<li><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></li>
+		</ul>
+	</div>
+	</div>
+	<div id="main">
+			<div id="map"></div>
+    			<script>
+				// Initialize and add the map
+				function initMap() {
+					// The location of muj
+					var muj = {lat: 26.8439, lng: 75.5652};
+					// The map, centered at muj
+					var map = new google.maps.Map(
+ 			    	document.getElementById('map'), {zoom: 15, center: muj});
+					// The marker, positioned at muj
+					var marker = new google.maps.Marker({position: muj, map: map});
+				}
+    			</script>
+			    <!--Load the API from the specified URL
+			    * The async attribute allows the browser to render the page while the API loads
+			    * The key parameter will contain your own API key (which is not needed for this tutorial)
+			    * The callback parameter executes the initMap() function
+			    -->
+    		<script async defer
+    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqLDat1p4qUSmFwny28Xx8wrQ3k8yhN8M&callback=initMap">
+    		</script>	
+	</div>
+</body>
+</html>

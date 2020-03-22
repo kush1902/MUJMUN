@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;  
+}
+#intro{
+	padding-top: 70px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	line-height: 50px;
+	color: #3a393d;
+	font-size: 20px;
+	margin-bottom: 100px; 
+	font-family: 'Baloo Chettan 2', cursive;
+}
+#a{
+	font-size: 50px;
+}
+#Contact{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 150px;
+}
+#e-mail{
+	float: left;
+	width: 25%;
+
+}
+#num{
+	float: left;
+	width: 25%;
+}
+#add{
+	float: left;
+	width: 30%;
+}
+#links{
+	float: right;
+}
+ul li{
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	margin:10px 10px 10px 10px;
+	text-align: center;
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+.fa-facebook-square:hover {
+        color: #3b5998;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+   .fa-facebook-square{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+.fa-instagram:hover {
+        color: #e1306c;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+   .fa-instagram-square{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+.fa-twitter:hover {
+        color: #1da1f2;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+   .fa-twitter-square{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+#main{
+	padding-top: 30px;
+}
+#map{
+	width:80%;
+	height:400px;
+	margin-left: 10%;
+}

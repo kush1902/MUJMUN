@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Montserrat|Poppins|Roboto+Condensed&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;  
+  padding: 0;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  height: 100vh;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  position: fixed;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  height: 50%;
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a:hover{
+  background-color: #000;
+}
+
+#nav-separator:hover{
+  background-color: #333;
+  cursor: default;
+}
+
+#header{
+  background-image: url(assets/images/commitees-backdrop.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#header div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  color: #fff;
+  text-shadow: 2px 2px 1px #222;
+  font-size: 42pt;
+}
+
+.committee{
+  height: 100vh;
+  padding: 40px;
+}
+
+
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Baloo Da 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
